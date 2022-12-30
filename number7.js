@@ -14,16 +14,16 @@ let n = 5; // you can take input from prompt or change the value
 let string = "";
 // External loop
 for (let i = 1; i <= n; i++) {
-    // printing characters
-    for (let j = 1; j <= n - i; j++) {
+  // printing number
+  for (let j = 1; j <= n - i; j++) {
 
-        string += " ";
+    string += " ";
 
-    }
-    for (let k = 1; k <= 2 * i - 1; k++) {
-        string += k
+  }
+  for (let k = 1; k <= 2 * i - 1; k++) {
+    string += k
 
-    }
-    string += "\n";
+  }
+  string += "\n";
 }
 console.log(string);

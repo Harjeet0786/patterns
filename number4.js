@@ -10,7 +10,7 @@ let string = "";
 
 // External loop
 for (let i = 0; i <= n; i++) {
-    // printing characters
+    // printing number
     for (let j = 1; j < n - i + 1; j++) {
         string += j
 

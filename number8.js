@@ -11,16 +11,16 @@ let string = "";
 count = 1;
 // External loop
 for (let i = 1; i <= n; i++) {
-    // printing characters
-    for (let j = 1; j <= n - i; j++) {
+  // printing number
+  for (let j = 1; j <= n - i; j++) {
 
-        string += " ";
+    string += " ";
 
-    }
-    for (let k = 1; k <= 2 * i - 1; k++) {
-        string += count;
-        count++;
-    }
-    string += "\n";
+  }
+  for (let k = 1; k <= 2 * i - 1; k++) {
+    string += count;
+    count++;
+  }
+  string += "\n";
 }
 console.log(string);

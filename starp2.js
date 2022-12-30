@@ -1,19 +1,23 @@
 /*
-1
-2 2
-3 3 3
-4 4 4 4
-5 5 5 5 5 
+
+*****
+****
+***
+**
+*
+
 
 */
 
 let n = 5; // you can take input from prompt or change the value
 let string = "";
+
 // External loop
-for (let i = 1; i <= n; i++) {
-    // printing number
-    for (let j = 1; j <= i; j++) {
-        string += i;
+for (let i = 0; i <= n; i++) {
+    // printing star
+    for (let j = 1; j < n - i + 1; j++) {
+        string += "*"
+
     }
     string += "\n";
 }
